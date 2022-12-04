@@ -14,3 +14,55 @@ So, Python is a dynamically typed language.
 
 Q3. List some pros and cons of Python programming language?
 
+Pros -  Beginner-friendly,Large Community,Flexible and Extensible,Extensive Libraries
+Cons - High memory consumption,Dynamically-typed language,Slower than compiled languages
+
+
+Q4. In what all domains can we use Python?
+
+Data Science,Automation,Web Development,AI & Machine Learning , Desktop GUI
+
+Q5. What are variable and how can we declare them?
+
+Variables are containers for storing data values.Python has no command for declaring a variable.
+A variable is created the moment you first assign a value to it.
+
+
+Q6. How can we take an input from the user in Python?
+
+In Python, we use input() function to take input from the user.
+
+
+Q7. What is the default datatype of the value that has been taken as an input using input() function?
+
+Whatever you enter as input, the input function converts it into a string. 
+If you enter an integer value still input() function convert it into a string.
+
+Q8. What is type casting?
+
+Type Casting is the method to convert the variable data type into a certain data type in order to the operation required to be performed by users.
+
+Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
+
+Python user can take multiple values or inputs in one line by two methods. 
+Using split() method
+Using List comprehension
+
+
+Q10. What are keywords?
+
+Keywords in Python are reserved words that can not be used as a variable name, function name, or any other identifier.
+
+Q11. Can we use keywords as a variable? Support your answer with reason.
+
+The keyword cannot be used as an identifier, function, and variable name
+
+Q12. What is indentation? What's the use of indentaion in Python?
+
+Indentation refers to the spaces at the beginning of a code line. 
+Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important.
+Python uses indentation to indicate a block of code.
+
+
+Q13. How can we throw some output in Python?
+
