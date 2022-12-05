@@ -66,3 +66,87 @@ Python uses indentation to indicate a block of code.
 
 Q13. How can we throw some output in Python?
 
+Python print() function prints the message to the screen or any other standard output device.
+
+Q14. What are operators in Python?
+
+In Python, operators are special symbols that designate that some sort of computation should be performed. The values that an operator acts on are called operands. 
+
+Q15. What is difference between / and // operators?
+
+'/' and '//' belong to the arithmetic operators.
+'/' is used for the normal division of two numbers.
+'//' is used to obtain the smallest integer nearest to the quotient obtained by dividing two numbers.
+
+Q16. Write a code that gives following as an output. iNeuroniNeuroniNeuroniNeuron
+
+print("iNeuroniNeuroniNeuroniNeuron")
+
+Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
+
+n=int(input())
+
+if(n%2==0):
+    print("even")
+else:
+    print("odd")
+
+
+Q18. What are boolean operator?
+
+Boolean Operators are those that result in the Boolean values of True and False .These include and, or and not .
+
+Q19. What will the output of the following?
+
+1 or 0 => 1
+
+0 and 0 => 0 
+
+True and False and True => False
+
+1 or 0 or 0 => 1
+
+Q20. What are conditional statements in Python?
+
+A conditional statement as the name suggests itself, is used to handle conditions in your program.
+These statements guide the program while making decisions based on the conditions encountered by the program.
+
+Q21. What is use of 'if', 'elif' and 'else' keywords?
+
+If: If is a keyword used to check if the condition is true or not and execute the corresponding statement .
+elif : Used if the 'if' condition is not satisfied then check the remaining condition and print the corresponding statement then elif is used .
+else : if the 'if' condition is not satisfied then the statment corresponding to the 'else' block will be executed .
+
+Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+
+age=int(input("Enter your age"))
+
+if age >= 18:
+    print("I can vote")
+else:
+    print("I can't vote")
+
+Q23. Write a code that displays the sum of all the even numbers from the given list. numbers = [12, 75, 150, 180, 145, 525, 50]
+
+numbers = [12, 75, 150, 180, 145, 525, 50]
+sum=0
+for i in numbers:
+    if i%2==0:
+        sum+=i
+print(sum)
+
+Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+
+x=int(input())
+y=int(input())
+z=int(input())
+
+if (x>y) and (x>z):
+    print("x is greatest",x)
+elif (y>x) and (y>z):
+    print("y is greatest",y)
+else:
+    print("z is greatest",z)
+
+
+
