@@ -166,3 +166,166 @@ for i in greater:
         break
 
 print(final)
+
+
+Q26. What is a string? How can we declare string in Python?
+
+Like many other popular programming languages, strings in Python are arrays of bytes representing unicode characters.
+Strings in python are surrounded by either single quotation marks, or double quotation marks.
+
+Q27. How can we access the string using its index?
+
+Square brackets can be used to access elements of the string.
+a = "Hello, World!"
+print(a[1])
+
+Q28. Write a code to get the desired output of the following
+string = "Big Data iNeuron"
+desired_output = "iNeuron"
+
+string = "Big Data iNeuron"
+print(string.split()[-1])
+
+Q30. Resverse the string given in the above question.
+
+string = "Big Data iNeuron"
+print(string[::-1])
+
+Q31. How can you delete entire string at once?
+
+string = "Big Data iNeuron"
+del string
+
+
+Q32. What is escape sequence?
+
+Escape sequences allow us to include special characters in strings. To do this, simply add a backslash (\) before the character you want to escape.
+
+Q33. How can you print the below string?
+'iNeuron's Big Data Course'
+
+string = "'iNeuron's Big Data Course'"
+print(string)
+
+Q34. What is a list in Python?
+
+Lists are used to store multiple items in a single variable.
+Lists are one of 4 built-in data types in Python used to store collections of data
+
+Q35. How can you create a list in Python?
+
+Lists are created using square brackets:
+thislist = ["apple", "banana", "cherry"]
+
+Q36. How can we access the elements in a list?
+
+List items are indexed and we can access them by referring to the index number.
+
+Q37. Write a code to access the word "iNeuron" from the given list.
+lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
+
+lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
+print(lst[4][2])
+
+Q38. Take a list as an input from the user and find the length of the list.
+
+lst = []
+n = int(input("Enter number of elements : "))
+
+for i in range(0, n):
+    ele = int(input())
+    lst.append(ele) 
+      
+print(lst)
+
+
+Q39. Add the word "Big" in the 3rd index of the given list.
+lst = ["Welcome", "to", "Data", "course"]
+
+lst = ["Welcome", "to", "Data", "course"]
+lst.insert(2,"Big")
+print(lst)
+
+Q40. What is a tuple? How is it different from list?
+Tuples are used to store multiple items in a single variable. 
+The primary difference between tuples and lists is that tuples are immutable as opposed to lists which are mutable. 
+Therefore, it is possible to change a list but not a tuple.
+The contents of a tuple cannot change once they have been created in Python due to the immutability of tuples.
+
+Q41. How can you create a tuple in Python?
+
+To create a tuple , you have to add a comma after the item, otherwise Python will not recognize it as a tuple and enclosed in braces.
+tuple = ("apple", "banana", "cherry")
+
+Q42. Create a tuple and try to add your name in the tuple. Are you able to do it? Support your answer with reason.
+
+No we cannot add our name to tuple since tuple are immutable and cannot be changed after creation.
+
+Q43. Can two tuple be appended. If yes, write a code for it. If not, why?
+
+No two tuple cannot be appended since tuples are immutable after creation.
+
+Q44. Take a tuple as an input and print the count of elements in it.
+
+t2 = (20,30,40,50)
+print(len(t2))
+
+Q45. What are sets in Python?
+
+Sets are used to store multiple items in a single variable.Sets cannot have two items with the same value.
+It prevents duplocate value.
+
+Q46. How can you create a set?
+
+Sets are written with curly brackets.
+thisset = {"apple", "banana", "cherry"}
+
+Q47. Create a set and add "iNeuron" in your set.
+thisset = {"apple", "banana", "cherry"}
+thisset.add("iNeuron")
+
+Q48. Try to add multiple values using add() function.
+
+We cannot add multiple value using add function at the same time .
+
+Q49. How is update() different from add()?
+
+Add an item to a set, using the add() method.
+To add items from another set into the current set, use the update() method.
+
+Q50. What is clear() in sets?
+
+The clear() method empties the set.
+
+Q51. What is frozen set?
+
+The frozenset() function returns an immutable frozenset object initialized with elements from the given iterable.
+Frozen set is just an immutable version of a Python set object. While elements of a set can be modified at any time, elements of the frozen set remain the same after creation.
+
+Q52. How is frozen set different from set?
+
+Frozen set is just an immutable version of a Python set object. While elements of a set can be modified at any time, elements of the frozen set remain the same after creation.
+
+Q53. What is union() in sets? Explain via code.
+
+Return a set that contains all items from both sets, duplicates are excluded.
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+
+z = x.union(y)
+
+print(z)
+
+Q54. What is intersection() in sets? Explain via code.
+
+Return a set that contains the items that exist in both set x, and set y.
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+
+z = x.intersection(y)
+
+print(z)
+
+Q55. What is dictionary ibn Python?
+
+ Dictionaries are used to store data values in key:value pairs. A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
