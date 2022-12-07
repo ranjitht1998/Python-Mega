@@ -328,4 +328,112 @@ print(z)
 
 Q55. What is dictionary ibn Python?
 
- Dictionaries are used to store data values in key:value pairs. A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
+Dictionaries are used to store data values in key:value pairs. A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
+
+Q56. How is dictionary different from all other data structures.
+
+A dictionary is a general-purpose data structure for storing a group of objects. A dictionary has a set of keys and each key has a single associated value unlike other data structure 
+in python where there is no key associated with it.
+
+Q57. How can we delare a dictionary in Python?
+
+Dictionaries are written with curly brackets, and have keys and values:
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
+
+Q58. What will the output of the following?
+var = {}
+print(type(var)) =>  <class 'dict'>
+
+Q59. How can we add an element in a dictionary?
+
+Adding an item to the dictionary is done by using a new index key and assigning a value to it:
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict["color"] = "red"
+print(thisdict)
+
+Q60. Create a dictionary and access all the values in that dictionary.
+
+car = {
+"brand": "Ford",
+"model": "Mustang",
+"year": 1964
+}
+x = car.values()
+print(x)
+
+
+Q61.Create a nested dictionary and access all the element in the inner dictionary.
+
+car = {
+"brand": "Ford",
+"model": "Mustang",
+"year": 1964,
+"model":{
+    "year":1999,
+    "expiry":2000
+}
+}
+x = car['model']
+print(x)
+
+Q62. What is the use of get() function?
+
+You can access the items of a dictionary by using get() function.
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+x = thisdict.get("model")
+
+Q63. What is the use of items() function?
+
+Returns a list containing a tuple for each key value pair.
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+x = car.items()
+print(x)
+
+Q64. What is the use of pop() function?
+
+Removes the element with the specified key
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+car.pop("model")
+print(car)
+
+Q65. What is the use of popitems() function?
+
+Removes the last inserted key-value pair.
+
+Q66. What is the use of keys() function?
+
+Returns a list containing the dictionary's keys.
+
+Q67. What is the use of values() function?
+
+Returns a list of all the values in the dictionary
+
+Q68. What are loops in Python?
+
+Looping means repeating something over and over until a particular condition is satisfied. Eg: For loop, while loop.
+
+Q69. How many type of loop are there in Python?
+
+For Loop. A for loop in Python is used to iterate over a sequence .
+While Loop. The while loop is used to execute a set of statements as long as a condition is true.
