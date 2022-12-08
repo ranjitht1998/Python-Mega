@@ -576,4 +576,49 @@ print(final)
 
 Q86. Write a Python program to check if a string is palindrome or not.
 
+my_str = 'aIbohPhoBiA'
+my_str = my_str.casefold()
+rev_str = reversed(my_str)
+if list(my_str) == list(rev_str):
+   print("The string is a palindrome.")
+else:
+   print("The string is not a palindrome.")
+
+Q87. Write a Python program to remove i'th element from a string.
+
+def remove(string, i):
+ 
+    a = string[: i]
+
+    b = string[i + 1:]
+
+    return a + b
+ 
+
+string = "geeksFORgeeks"
+i = 5
+print(remove(string, i))
+
+Q88. Write a Python program to check if a substring is present in a giv
+MyString1 = "sdfredsddfs"
+ 
+if "sddas" in MyString1:
+    print("Yes! it is present in the string")
+else:
+    print("No! it is not present")
+
+Q89. Write a Python program to find words which are greater than given length k.
+
+def word_k(k, s):    
+    word = s.split(" ")
+    for x in word:
+        if len(x)>k:
+          print(x)
+k = 3
+s ="Python is good"
+word_k(k, s)
+
+Q90. Write a Python program to extract unquire dictionary values.
+
+
 
